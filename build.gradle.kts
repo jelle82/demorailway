@@ -40,7 +40,7 @@ tasks.withType<Jar> {
 
     // Otherwise you'll get a "No main manifest attribute" error
     manifest {
-        attributes["Main-Class"] = "com.example.rps.DemorailwayApplicationKt"
+        attributes["Main-Class"] = "com.example.demorailway.DemorailwayApplicationKt"
     }
 
     // To add all of the dependencies otherwise a "NoClassDefFoundError" error
