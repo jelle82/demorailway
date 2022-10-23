@@ -3,7 +3,7 @@ stages:
 
 deploy-railway:
   stage: deploy
-  image: ubuntu
+  image: openjdk:8-jdk-alpine
   only:
     - pushes
     - main
